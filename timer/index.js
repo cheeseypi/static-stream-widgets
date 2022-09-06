@@ -21,7 +21,7 @@ function getTimerString(totalSeconds) {
     let hours = Math.floor(totalSeconds / 3600);
     let minutes = Math.floor(totalSeconds / 60) - (hours * 60);
     let seconds = Math.floor(totalSeconds % 60);
-    let timeString = numberPadAndSpan(hours) + ":" + numberPadAndSpan(minutes) + ":" + numberPadAndSpan(seconds);
+    let timeString = (hours ? numberPadAndSpan(hours) + ":" : '') + numberPadAndSpan(minutes) + ":" + numberPadAndSpan(seconds);
     return "-" + timeString;
 }
 
