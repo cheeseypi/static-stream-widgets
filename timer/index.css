@@ -1,4 +1,7 @@
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@font-face {
+    font-family: Renogare;
+    src: url("/res/Renogare-Regular.otf") format("opentype");
+}
 
 * {
     margin: 0;
@@ -6,8 +9,9 @@
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Renogare, sans-serif;
     font-size: 40px;
+    text-align: center;
 }
 
 .FWNum{
