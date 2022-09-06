@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Renogare;
+    src: url("/infopane/res/Renogare-Regular.otf") format("opentype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Renogare, sans-serif;
+    font-size: 40px;
+}
+
+.FWNum{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
